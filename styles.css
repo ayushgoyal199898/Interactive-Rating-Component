@@ -1,0 +1,140 @@
+body{
+  background-color: black;
+}
+
+.outer-container{
+  background-color: hsl(213, 19%, 18%);
+  width: 350px;
+  height: 375px;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.star-container{
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.circle-div{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:  hsl(216, 12%, 8%);
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.flex-box{
+  padding: 10px 10px 0 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p{
+  font-family: Overpass;
+  font-size: 12px;
+  color: #EDEDED;
+}
+
+.title-heading{
+  padding: 30px 0 10px 25px;
+  font-family: Overpass;
+  font-size: 25px;
+  color: white;
+}
+
+.paragraph-text{
+  padding: 0 30px 0 25px;
+}
+
+.star-image{
+  width: 15px;
+  height: 15px;
+}
+
+.btn{
+  color: hsl(0, 0%, 100%);
+  font-family: Overpass;
+  font-size: 15px;
+  background-color: hsl(25, 97%, 53%);
+  width: 275px;
+  margin: 30px 25px 0 25px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.rating-div:hover{
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.btn:hover{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.visible{
+  display: none;
+}
+
+#thank-you-card{
+  text-align: center;
+}
+
+.thankyou-image{
+  width: 150px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.user-rating-display{
+  text-align: center;
+  background-color: hsl(216, 12%, 8%);
+  height: 30px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.user-rating-display-text{
+  color: hsl(25, 97%, 53%);
+  padding-top: 5px;
+}
+
+.thank-you-heading{
+  color: hsl(0, 0%, 100%);
+  font-family: Overpass;
+  font-size: 25px;
+  margin: 30px 100px 20px;
+}
+
+.thank-you-paragraph{
+  margin: 0 25px;
+  color: #EDEDED;
+}
+
+@media (max-width: 400px) {
+  .outer-container{
+    width: 325px;
+    height: 375px;
+  }
+
+  .btn{
+    width: 250px;
+  }
+}
